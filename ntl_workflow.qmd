@@ -1,6 +1,8 @@
 ---
 title: "Reproducible workflow with `targets`: North Temperate Lakes Ice Cover"
 format: html
+editor_options: 
+  chunk_output_type: console
 ---
 
 In this example, we will use the R package `targets` (https://books.ropensci.org/targets/) to develop a reproducible workflow that lets us track changes and determine which part of the workflow needs to be re-run when we modify the data or the analysis we are conducting. 
